@@ -4,7 +4,14 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "bitter": ["Bitter", "serif"],
+      },
+      container:{
+        center: true,
+      }
+    },
   },
   plugins: [],
 }
